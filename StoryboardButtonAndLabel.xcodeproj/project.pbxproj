@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20F542B1D47896000653004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F542A1D47896000653004 /* main.m */; };
+		E20F542E1D47896000653004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F542D1D47896000653004 /* AppDelegate.m */; };
+		E20F54311D47896000653004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F54301D47896000653004 /* ViewController.m */; };
+		E20F54341D47896000653004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20F54321D47896000653004 /* Main.storyboard */; };
+		E20F54361D47896000653004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20F54351D47896000653004 /* Assets.xcassets */; };
+		E20F54391D47896000653004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20F54371D47896000653004 /* LaunchScreen.storyboard */; };
+		E20F54421D478ABD00653004 /* BorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F54411D478ABD00653004 /* BorderButton.m */; };
+		E20F54451D47924300653004 /* BorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F54441D47924300653004 /* BorderLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20F54261D47896000653004 /* StoryboardButtonAndLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardButtonAndLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20F542A1D47896000653004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E20F542C1D47896000653004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E20F542D1D47896000653004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E20F542F1D47896000653004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E20F54301D47896000653004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E20F54331D47896000653004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E20F54351D47896000653004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20F54381D47896000653004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20F543A1D47896000653004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20F54401D478ABD00653004 /* BorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderButton.h; sourceTree = "<group>"; };
+		E20F54411D478ABD00653004 /* BorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderButton.m; sourceTree = "<group>"; };
+		E20F54431D47924300653004 /* BorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderLabel.h; sourceTree = "<group>"; };
+		E20F54441D47924300653004 /* BorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20F54231D47896000653004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20F541D1D47896000653004 = {
+			isa = PBXGroup;
+			children = (
+				E20F54281D47896000653004 /* StoryboardButtonAndLabel */,
+				E20F54271D47896000653004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20F54271D47896000653004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20F54261D47896000653004 /* StoryboardButtonAndLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20F54281D47896000653004 /* StoryboardButtonAndLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E20F542C1D47896000653004 /* AppDelegate.h */,
+				E20F542D1D47896000653004 /* AppDelegate.m */,
+				E20F542F1D47896000653004 /* ViewController.h */,
+				E20F54301D47896000653004 /* ViewController.m */,
+				E20F54321D47896000653004 /* Main.storyboard */,
+				E20F54401D478ABD00653004 /* BorderButton.h */,
+				E20F54411D478ABD00653004 /* BorderButton.m */,
+				E20F54431D47924300653004 /* BorderLabel.h */,
+				E20F54441D47924300653004 /* BorderLabel.m */,
+				E20F54351D47896000653004 /* Assets.xcassets */,
+				E20F54371D47896000653004 /* LaunchScreen.storyboard */,
+				E20F543A1D47896000653004 /* Info.plist */,
+				E20F54291D47896000653004 /* Supporting Files */,
+			);
+			path = StoryboardButtonAndLabel;
+			sourceTree = "<group>";
+		};
+		E20F54291D47896000653004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20F542A1D47896000653004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20F54251D47896000653004 /* StoryboardButtonAndLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20F543D1D47896000653004 /* Build configuration list for PBXNativeTarget "StoryboardButtonAndLabel" */;
+			buildPhases = (
+				E20F54221D47896000653004 /* Sources */,
+				E20F54231D47896000653004 /* Frameworks */,
+				E20F54241D47896000653004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryboardButtonAndLabel;
+			productName = StoryboardButtonAndLabel;
+			productReference = E20F54261D47896000653004 /* StoryboardButtonAndLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20F541E1D47896000653004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hikaruApp;
+				TargetAttributes = {
+					E20F54251D47896000653004 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E20F54211D47896000653004 /* Build configuration list for PBXProject "StoryboardButtonAndLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20F541D1D47896000653004;
+			productRefGroup = E20F54271D47896000653004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20F54251D47896000653004 /* StoryboardButtonAndLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20F54241D47896000653004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20F54391D47896000653004 /* LaunchScreen.storyboard in Resources */,
+				E20F54361D47896000653004 /* Assets.xcassets in Resources */,
+				E20F54341D47896000653004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20F54221D47896000653004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20F54311D47896000653004 /* ViewController.m in Sources */,
+				E20F542E1D47896000653004 /* AppDelegate.m in Sources */,
+				E20F542B1D47896000653004 /* main.m in Sources */,
+				E20F54421D478ABD00653004 /* BorderButton.m in Sources */,
+				E20F54451D47924300653004 /* BorderLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E20F54321D47896000653004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20F54331D47896000653004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E20F54371D47896000653004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20F54381D47896000653004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20F543B1D47896000653004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E20F543C1D47896000653004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20F543E1D47896000653004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoryboardButtonAndLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikaruapp.StoryboardButtonAndLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20F543F1D47896100653004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoryboardButtonAndLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikaruapp.StoryboardButtonAndLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20F54211D47896000653004 /* Build configuration list for PBXProject "StoryboardButtonAndLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20F543B1D47896000653004 /* Debug */,
+				E20F543C1D47896000653004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20F543D1D47896000653004 /* Build configuration list for PBXNativeTarget "StoryboardButtonAndLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20F543E1D47896000653004 /* Debug */,
+				E20F543F1D47896100653004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20F541E1D47896000653004 /* Project object */;
+}
